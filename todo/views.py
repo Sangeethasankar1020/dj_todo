@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 # MongoDB 
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb+srv://sangeethasankar474:sangeetha_ocn@cluster0.paforwb.mongodb.net/')
 db = client['todo_db']
 todos_collection = db['todos']
 
